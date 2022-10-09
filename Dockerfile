@@ -15,7 +15,7 @@ RUN npm ci
 # Bundle app source
 COPY . .
 
-EXPOSE 3008
+EXPOSE 3000
 CMD [ "node", "index.js" ]
 
 
